@@ -24,7 +24,7 @@ def assembled_matrix
   new_array = []
   new_array[0] = CONVENTIONAL_PRODUCE
   new_array[1] = ORGANIC_PRODUCE
-  
+  puts new_array
   
   
 end
