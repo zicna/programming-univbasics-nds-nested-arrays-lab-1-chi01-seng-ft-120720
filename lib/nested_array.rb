@@ -40,11 +40,12 @@ def matrix_lookup(matrix, row, column)
   # Return the matrix's content at that row and and column
   return matrix[column][row]
 end
-puts matrix_lookup(assembled_matrix, 1, 1)
+
 
 
 def matrix_update(matrix, row, column, new_value)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
+  matrix[row][column] = new_value
 end
