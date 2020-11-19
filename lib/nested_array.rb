@@ -15,8 +15,7 @@ CONVENTIONAL_PRODUCE = [
   "Watermelon",
   "Eggplant"
 ]
-new_array = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
-puts new_array[0][0]
+
 
 def assembled_matrix
   # Build an array that contains both of the above arrays
@@ -41,6 +40,7 @@ def matrix_lookup(matrix, row, column)
   # Return the matrix's content at that row and and column
   return matrix[column][row]
 end
+matrix_lookup(sorted_matrix, 0, 0)
 
 
 def matrix_update(matrix, row, column, new_value)
