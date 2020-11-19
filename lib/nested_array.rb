@@ -25,9 +25,8 @@ def assembled_matrix
   new_array[0] = CONVENTIONAL_PRODUCE
   new_array[1] = ORGANIC_PRODUCE
   puts new_array
-  
-  
 end
+assembled_matrix
 
 def sorted_matrix
   # Using Array literal syntax only, build another nested array that 
