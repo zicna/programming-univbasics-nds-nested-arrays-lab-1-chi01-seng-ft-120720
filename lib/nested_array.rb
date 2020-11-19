@@ -15,6 +15,8 @@ CONVENTIONAL_PRODUCE = [
   "Watermelon",
   "Eggplant"
 ]
+new_array = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+puts new_array[0][0]
 
 def assembled_matrix
   # Build an array that contains both of the above arrays
