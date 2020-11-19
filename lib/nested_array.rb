@@ -40,7 +40,7 @@ def matrix_lookup(matrix, row, column)
   # Return the matrix's content at that row and and column
   return matrix[column][row]
 end
-puts matrix_lookup(sorted_matrix, 0, 0)
+puts matrix_lookup(assembled_matrix, 1, 1)
 
 
 def matrix_update(matrix, row, column, new_value)
